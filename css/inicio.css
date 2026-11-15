@@ -269,20 +269,3 @@ footer {
 footer p {
     margin-bottom: 4px;
 }
-
-/* Ajustes para celular */
-@media (max-width: 600px) {
-    nav a {
-        display: inline-block;
-        margin: 6px;
-    }
-
-    .dica,
-    .vaga {
-        width: 100%;
-    }
-
-    .boas-vindas {
-        padding: 30px 20px;
-    }
-}

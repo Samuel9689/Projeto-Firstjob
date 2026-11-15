@@ -1,0 +1,174 @@
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf1ff;
+    color: #222;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 22px;
+    color: #2054a3;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #2054a3;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Título da página */
+.titulo-pagina {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.titulo-pagina h2 {
+    color: #2054a3;
+    margin-bottom: 10px;
+}
+
+/* Cartão de detalhes */
+.detalhes-vaga {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #d2ddef;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Cabeçalho da vaga */
+.cabecalho-vaga {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.cabecalho-vaga h2 {
+    color: #2054a3;
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+.cabecalho-vaga p {
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
+.status {
+    display: inline-block;
+    background-color: #e4edff;
+    color: #2054a3;
+    padding: 7px 13px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+/* Seções de informações */
+.informacoes,
+.descricao,
+.requisitos,
+.responsabilidades {
+    margin-bottom: 25px;
+}
+
+.detalhes-vaga h3 {
+    color: #2054a3;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.informacoes p {
+    margin-bottom: 9px;
+    line-height: 1.5;
+}
+
+.descricao p {
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.detalhes-vaga ul {
+    padding-left: 25px;
+}
+
+.detalhes-vaga li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* Botões */
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.botoes a {
+    text-decoration: none;
+    padding: 13px 22px;
+    border-radius: 7px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.3s;
+}
+
+/* Botão de voltar as vagas */
+.voltar {
+    background-color: #2054a3;
+    color: white;
+    border: 1px solid #2054a3;
+}
+
+.voltar:hover {
+    background-color: #153d7c;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 25px;
+    color: #4386ff;
+}
