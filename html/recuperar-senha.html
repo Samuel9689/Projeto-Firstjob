@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Angelo Ferreira da Silva">
-    <meta name="description" content="First Job - Recuperar senha">
+    <meta name="description" content="First Job - Recuperação de senha">
     <title>First Job - Recuperar Senha</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -18,22 +18,24 @@
     </header>
 
     <main>
-        <h2>Esqueceu sua senha?</h2>
-        <p>Informe o e-mail cadastrado e enviaremos um link de recuperação.</p>
 
-        <div class="aviso">
-            Esta é uma demonstração. Em um sistema real, um e-mail seria enviado.
-        </div>
+        <h2>Recuperação de senha</h2>
 
-        <form action="#" method="post" onsubmit="alert('Se o e-mail existir, você receberá as instruções em breve.'); return false;">
+        <p>
+            Informe seu e-mail para continuar com a recuperação de senha.
+        </p>
+
+        <form action="email-enviado.html" method="get">
+
             <p>
-                <label for="email">E-mail:</label>
+                <label for="email">E-mail cadastrado:</label>
                 <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
             </p>
 
             <p>
-                <input type="submit" value="ENVIAR LINK DE RECUPERAÇÃO">
+                <button type="submit">RECUPERAR SENHA</button>
             </p>
+
         </form>
 
         <hr>
@@ -41,6 +43,7 @@
         <p>
             <a href="index.html">Voltar para o login</a>
         </p>
+
     </main>
 
     <footer>
