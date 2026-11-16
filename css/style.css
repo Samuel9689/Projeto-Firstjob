@@ -16,6 +16,15 @@ body {
     text-align: center;
 }
 
+/* Página de login com imagem de fundo */
+body.pagina-login {
+    background-image: url('../img/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 /* Cabeçalho */
 header {
     padding: 30px 20px 10px;
